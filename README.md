@@ -11,7 +11,7 @@ Analyzing sales, customer behavior, delivery performance, and seller/product tre
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Research Questions & Key Findings](#research-questions--key-findings)
 - [Dashboard](#dashboard)
-- [How to Run This Project](#how-to-run-this-project)
+- [Project Workflow](#project-workflow)
 - [Final Recommendations](#final-recommendations)
 - [Author & Contact](#author--contact)
 
@@ -151,30 +151,6 @@ Power BI dashboard (`Power bi/E-commarce Analysis.pbix`) covering:
 
 ## Project Workflow
 ![Work Flow](./Work%20Flow.png)
-
-## How to Run This Project
-1. Clone the repository:
-   ```
-   git clone https://github.com/Vivek7ok/E-commarce_data_analysis_.git
-   ```
-2. Clean the raw data:
-   ```
-   python Python/Cleaing.py
-   ```
-3. Load cleaned data into PostgreSQL:
-   ```
-   python Python/Insert.py
-   ```
-4. Run the SQL analysis scripts in `Sql/` against the loaded database (in numeric order, 01 → 08) for business-question results.
-5. Run exploratory analysis:
-   ```
-   python Python/EDA.py
-   ```
-   or open `Python/EDA.ipynb` in Jupyter.
-6. Open the dashboard:
-   ```
-   Power bi/E-commarce Analysis.pbix
-   ```
 
 ## Final Recommendations
 - Invest in customer retention (loyalty offers, targeted re-engagement) since only ~3% of customers currently reorder
